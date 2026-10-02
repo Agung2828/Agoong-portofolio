@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agung Kurniawan — Full Stack Developer</title>
+</head>
+<div id="audio-ui" role="group" aria-label="Kontrol suara">
+  <button id="audio-toggle" type="button" aria-pressed="false" aria-label="Matikan suara">🔊</button>
+  <input id="audio-volume" type="range" min="0" max="100" value="70" aria-label="Volume">
+</div>
+<body>
+  <canvas id="scene"></canvas>
+  <div id="tooltip" role="tooltip"></div>
+
+<aside id="panel" aria-hidden="true" aria-labelledby="panel-title" inert>
+  <button id="panel-close" aria-label="Tutup panel">✕</button>
+  <h2 id="panel-title"></h2>
+  <div id="panel-body"></div>
+</aside>
+<div id="loader" role="status" aria-live="polite">
+  <p class="loader-title">BUILDING MY WORLD...</p>
+  <div class="loader-track"><div id="loader-bar"></div></div>
+  <p id="loader-pct">0%</p>
+</div>
+
+<section id="intro" aria-label="Intro">
+  <h1></h1>
+  <p class="intro-role"></p>
+  <p class="intro-desc">Welcome to my little digital world.</p>
+  <button id="enter-btn">ENTER THE WORLD</button>
+</section>
+
+<nav id="nav" aria-label="Navigasi portofolio">
+  <button data-target="about">ABOUT</button>
+  <button data-target="skills">SKILLS</button>
+  <button data-target="projects">PROJECTS</button>
+  <button data-target="experience">EXPERIENCE</button>
+  <button data-target="education">EDUCATION</button>
+  <button data-target="certificates">CERTIFICATES</button>
+  <button data-target="stats">STATS</button>
+  <button data-target="resume">RESUME</button>
+  <button data-target="contact">CONTACT</button>
+</nav>
+<p id="hint">Drag to explore • Tap objects to discover</p>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
