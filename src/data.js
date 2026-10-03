@@ -12,7 +12,8 @@ export const profile = {
         'IT Engineer dan Web Developer dengan pengalaman dalam pengembangan aplikasi berbasis web, ' +
         'administrasi server, serta pengelolaan jaringan komputer. Menguasai PHP, Laravel, JavaScript, ' +
         'MySQL, C# (.NET Framework & .NET Core), dan konfigurasi MikroTik. Berpengalaman membangun dan mengoptimalkan sistem berbasis web, ' +
-        'mengelola infrastruktur jaringan, serta memberikan solusi terhadap permasalahan teknis.',
+        'mengelola infrastruktur jaringan, serta memberikan solusi terhadap permasalahan teknis. ' +
+        'Saat ini menjalani magang di Pertamina Hulu Rokan pada divisi IT Business Application.',
     softSkills: [
         'Problem Solving', 'Cepat Beradaptasi', 'Komunikasi Efektif', 'Kerja Tim & Mandiri',
         'Manajemen Waktu', 'Berpikir Kreatif', 'Detail-oriented', 'Fast Learner',
@@ -111,6 +112,20 @@ export const projects = [
 ];
 
 export const experience = [
+    {
+        company: 'Pertamina Hulu Rokan',
+        position: 'Intern — IT Business Application',
+        // TODO: sesuaikan bulan mulai & selesai magang
+        period: '2026 — Sekarang',
+        description: 'Magang di divisi IT Business Application, mendukung pengembangan dan pengelolaan aplikasi bisnis perusahaan.',
+        // TODO: ganti dengan tugas aslimu, ini masih gambaran umum
+        responsibilities: [
+            'Mendukung pengembangan dan pemeliharaan aplikasi bisnis di lingkungan IT Business Application.',
+            'Berkolaborasi dengan tim dalam analisis kebutuhan, pengujian, dan dokumentasi aplikasi.',
+            'Belajar langsung proses kerja IT di perusahaan energi skala besar.',
+        ],
+        technologies: ['Business Application', 'Web Development'],
+    },
     {
         company: 'Balai Guru dan Tenaga Kependidikan Provinsi Riau (MagangHub)',
         position: 'Pranata Komputer',
